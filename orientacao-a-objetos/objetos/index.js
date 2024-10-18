@@ -70,3 +70,37 @@ let news = [
 ];
 
 console.log(news[0].Content);
+
+
+let games = [
+    {
+        'Title': 'The Last of Us Part II',
+        'Genere': 'Ação/Aventura',
+        'Developer': 'Naughty Dog',
+        'Publisher': 'Sony Interactive Entertainment',
+        'Release Date': '19/06/2020'
+
+
+    },
+
+
+    {
+        'Title': 'God of War',
+        'Genere': 'Ação/Aventura',
+        'Developer': 'Santa Monica Studio',
+        'Publisher': 'Sony Interactive Entertainment',
+        'Release Date': '20/04/2018'
+    },
+
+    {
+        'Title': 'Red Dead Redemption 2',
+        'Genere': 'Ação/Aventura',
+        'Developer': 'Rockstar Games',
+        'Publisher': 'Rockstar Games',
+        'Release Date': '26/10/2018'
+    }
+
+
+];
+
+console.log(games[1].Title);
