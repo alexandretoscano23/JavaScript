@@ -35,3 +35,6 @@ console.log(newUser.printUserData());
 
 console.log(newUser.PrintPhone());//novo parâmetro que foi criado para a classe NewUser
 
+
+
+
