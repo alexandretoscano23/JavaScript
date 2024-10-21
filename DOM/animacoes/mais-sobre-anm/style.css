@@ -1,0 +1,15 @@
+.container > h2 > span{
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(35, 35, 170)
+}
+
+.container > p{
+    overflow: hidden; /* utilizada para cortar qualquer conteúdo */ 
+    height: 0px ; /* altura do que vai ficar a amostra */
+    transition: ease 0.5s;
+}
+
+.anim{
+    height: 200px !important;
+}

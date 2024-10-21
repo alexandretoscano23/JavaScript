@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 0;
+}
+
+.animEsquerda{ /* quando o elemento tiver esta classe, vai ter uma transição para a esquerda */
+    transition: 1s;
+    margin-left: 90px;
+    background-color: green;
+    border-radius: 50%;
+}
