@@ -5,11 +5,11 @@
 
 .container img{
     position: absolute;
-    left: 30%;
-    top: 0;
-    width: 100%;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    position: relative;
     opacity: 0;
-    height: 400px;
     transition: 1s;
 }
 
@@ -23,10 +23,10 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    border-radius: 10px;
-    background-color: #ccc;
+    border-radius: 50%;
+    background-color: #aca9a9;
 }
 
 .active-bullet{
-    background-color: #333;
+    background-color: #302f2f;
 }
