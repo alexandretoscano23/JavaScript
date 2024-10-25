@@ -11,4 +11,5 @@ let box = document.querySelectorAll('.box')[0]; //pegar o primeiro elemento que 
 box.addEventListener('click', ()=>{ //adiciona um evento que,ao clicar, executa
     box.classList.add('animEsquerda');
   
+    
 });
