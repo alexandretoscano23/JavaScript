@@ -52,3 +52,17 @@ if (number === 100 || name2 === 'Cleber'){ //se o número for 100 ou o nome for 
 } else{
     console.log(false);
 }
+
+//Switch
+let velocity = 80;
+
+switch(velocity){
+    case 100: //caso for
+        console.log('Velocidade de 100km/h');
+        break; //pare a execução
+    case 160:
+        console.log('Velocidade de 160km/h');
+        break;
+    default: //caso não seja nenhum dos casos
+        console.log('Velocidade indefinida');
+}
