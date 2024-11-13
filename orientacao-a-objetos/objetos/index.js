@@ -1,4 +1,4 @@
-//objetos - 
+//objetos - são estruturas de dados que são capazes de armazenar e organizar outros dados. Os dados são organizados  através de propriedades
 
 let userData= {
     'name' : 'Alexandre',
@@ -104,3 +104,15 @@ let games = [
 ];
 
 console.log(games[1].Title);
+
+//Adicionando uma nova propriedade no obj
+
+let data = {
+    name : 'Alexandre',
+    age : 37
+};
+
+data.email = 'alexandre@gmail.com';
+data.homeTown = 'João Pessoa';
+
+console.log(data);
