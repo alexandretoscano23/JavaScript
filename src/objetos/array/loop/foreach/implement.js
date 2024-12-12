@@ -4,7 +4,7 @@ Array.prototype.forEach2 = function(callback){
         callback(this[i], i, this); //elemento, indice, array
     }
 }
-const aprovados = ['Agatha', 'Aldo', 'Daniel', 'Raquel'];
-aprovados.forEach2((e,i)=>{
+const approved = ['Agatha', 'Aldo', 'Daniel', 'Raquel'];
+approved.forEach2((e,i)=>{
     console.log(`${i + 1}) ${e}`);
 });
