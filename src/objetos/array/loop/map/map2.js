@@ -41,21 +41,20 @@ const onlyWeight = (dog) => dog.weight;
 const result4 = dogs.map(toObject).map(onlyWeight);
 console.log(`Pesos: ${result4}`);
 
-
 //carros
 const cars = [
-    '{"brand": "Fiat", "model": "Uno", "year": 2000}',
-    '{"brand": "Chevrolet", "model": "Corsa", "year": 2002}',
-    '{"brand": "Ford", "model": "Ka", "year": 2005}',
-    '{"brand": "Volkswagen", "model": "Gol", "year": 2008}',
-    '{"brand": "Fiat", "model": "Palio", "year": 2010}',
-    '{"brand": "Chevrolet", "model": "Onix", "year": 2015}',
-]
+  '{"brand": "Fiat", "model": "Uno", "year": 2000}',
+  '{"brand": "Chevrolet", "model": "Corsa", "year": 2002}',
+  '{"brand": "Ford", "model": "Ka", "year": 2005}',
+  '{"brand": "Volkswagen", "model": "Gol", "year": 2008}',
+  '{"brand": "Fiat", "model": "Palio", "year": 2010}',
+  '{"brand": "Chevrolet", "model": "Onix", "year": 2015}',
+];
 
 //transformar em objeto
-const obj = js => JSON.parse(js);
+const obj = (js) => JSON.parse(js);
 //apenas a marca
-const onlyBrand = car => car.brand;
+const onlyBrand = (car) => car.brand;
 //mapear
 const result5 = cars.map(obj).map(onlyBrand);
-console.log(result5.sort())
+console.log(result5.sort());
