@@ -24,6 +24,7 @@ const cars = [
   { name: "Ferrari", year: 2022, used: true },
   { name: "Lamborghini", year: 2023, used: true },
   { name: "Tesla", year: 2024, used: false },
+  { name: "Palio", year: 2020, used: false },
 ];
 
 //carros acima de 2019 e não usados
