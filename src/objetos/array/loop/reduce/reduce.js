@@ -5,6 +5,28 @@ const students = [
   { name: "Alice", score: 8.7, scholarship: true },
 ];
 
+//todos os alunos são bolsistas?
+const isScholarship = students.map(s => s.scholarship).reduce(function(acumulator,actual){
+  if (acumulator === true && actual === true){
+    return `Todos são bolsistas bolsista`;
+  }else{
+    return `Nem todos são bolsistas`;
+  }
+});
+
+console.log(isScholarship);
+
+//algum aluno é bolsista?
+const somStudentIsScholarship = students.map(s => s.scholarship).reduce(function(acumulator2,actual2){
+  if(acumulator2 === true || actual2 === true){
+    return 'Tem sim';
+  }else{
+    return 'Não tem aluno bolsista';
+  }
+})
+
+console.log(somStudentIsScholarship);
+
 //somar todas as notras dos alunos
 const result = students.map(a => a.score).reduce(function(acumulator, actual){
     console.log(acumulator, actual);
@@ -32,3 +54,5 @@ const result2 = products.map(p => p.price).reduce(function(acumulador,actual){
 });
 
 console.log(result2);
+
+
